@@ -1,0 +1,9 @@
+<ul>
+    <span>Books</span>
+    <li ng-repeat="book in $ctrl.booklist">
+   		<a href="#!books/{{book.id}}">{{book.name}}</a>
+    </li>
+    <br>
+    <a class="btn" href="#!create-book">Add a new book</a>
+</ul>
+

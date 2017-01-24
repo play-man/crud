@@ -1,0 +1,24 @@
+<div ng-controller="BookEditController">
+  <p>
+    Name:
+    <input type="text" name="name" value={{$ctrl.book.name}}>
+  </p>
+  <p>
+    Author:
+    <input type="text" name="author" value={{$ctrl.book.author}}>
+  </p>
+  <p>
+    Year:
+    <input type="number" name="year" value={{$ctrl.book.year}}>
+  </p>
+  <p>
+    Genre:
+    <input type="text" name="genre" value={{$ctrl.book.genre}}>
+  </p>
+  <p>
+    Text:
+    <input type="text" name="text" value={{$ctrl.book.text}}>
+  </p>
+  <br>
+  <input type="submit" value="Submit">
+</div>

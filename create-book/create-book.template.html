@@ -1,0 +1,26 @@
+<div>
+  <form ng-submit="save(book, createForm)">
+    <p>
+    Name:
+    <input type="text" ng-model="book.name">
+  </p>
+  <p>
+    Author:
+    <input type="text" name="book.author">
+  </p>
+  <p>
+    Year:
+    <input type="number" name="book.year">
+  </p>
+  <p>
+    Genre:
+    <input type="text" name="book.genre">
+  </p>
+  <p>
+    Text:
+    <input type="text" name="book.text">
+  </p>
+  <br>
+  <p><button type="submit">Create</button></p>
+  </form>
+</div>
